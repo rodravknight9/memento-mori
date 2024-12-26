@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Memento Mori</title>
+    <link rel="icon" type="image/x-icon" href="./img/m.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,10 +12,23 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ysabeau+SC:wght@1..1000&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div id="container">
-      <div id="title"><h1>Memento Mori</h1></div>
+      <div id="title">
+        <div class="buttons">
+          <button class="optionBtn dropdown">
+            <i style="font-size: 24px" class="fa">&#xf251;</i>
+            <span class="btnText" id="userLifeExpectancy"></span>
+            <div class="dropdown-content" id="dropdown-content"></div>
+          </button>
+        </div>
+        <h1>Memento Mori</h1>
+      </div>
       <div id="weeks"></div>
     </div>
     <script src="./main.js"></script>
