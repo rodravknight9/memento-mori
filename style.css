@@ -1,0 +1,50 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau SC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#title {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 2rem;
+}
+
+#weeks {
+  width: 100vw;
+}
+
+.year {
+  width: 100%;
+  display: flex;
+  padding: 3px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekDot {
+  border: 1px solid black;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.2rem;
+}
+
+.w27 {
+  margin-right: 1rem;
+}
+
+.w28 {
+  margin-left: 1rem;
+}
+
+.decade {
+  margin-bottom: 1rem;
+}
